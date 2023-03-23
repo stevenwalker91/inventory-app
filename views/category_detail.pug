@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= category.name
+  p= category.description
+
+
+  button#edit-cat.btn.btn-primary(type='button' name=category.id) Edit
+  button#delete-cat.btn.btn-danger(type='button' name=category.id) Delete
+
+  p#cat-error

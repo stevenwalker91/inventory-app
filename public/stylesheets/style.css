@@ -1,0 +1,17 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.form-check {
+  margin-top: 20px;
+}
+
+.badge-primary {
+  background-color: #1b1b1b;
+  margin-left: 5px;
+}

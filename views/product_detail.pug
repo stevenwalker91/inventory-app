@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= product.name
+
+  p= product.description
+
+  p Stock = #{product.stock}
+  p Price = #{product.price}
+
+  button#edit.btn.btn-primary(type='button' name=product.id) Edit
+  button#delete.btn.btn-danger(type='button' name=product.id) Delete
